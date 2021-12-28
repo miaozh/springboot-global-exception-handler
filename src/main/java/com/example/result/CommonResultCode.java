@@ -14,19 +14,24 @@ import lombok.Getter;
 public enum CommonResultCode implements ResultCode {
 
     /**
-     * success
+     * Success
      */
-    SUCCESS(0, "success"),
+    SUCCESS(0, "Success"),
 
     /**
-     * invalid param
+     * Invalid param
      */
-    INVALID_PARAM(4000, "invalid param"),
+    INVALID_PARAM(4000, "Invalid param"),
 
     /**
-     * failed
+     * Request method not supported
      */
-    FAILED(5000, "failed");
+    INVALID_REQUEST_METHOD(4100, "Request method not supported"),
+
+    /**
+     * Failed
+     */
+    FAILED(5000, "Failed");
 
     /**
      * status code

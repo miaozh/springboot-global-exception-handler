@@ -22,12 +22,12 @@ public class AddUserReqVO {
     /**
      * user name
      */
-    @NotBlank(message = "user name can not be blank")
+    @NotBlank(message = "Username can not be blank")
     private String userName;
 
     /**
      * user age
      */
-    @NotNull(message = "user age can not be null")
+    @NotNull(message = "User age can not be null")
     private Integer age;
 }
